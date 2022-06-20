@@ -11,6 +11,7 @@
 		"@alch/alchemy-web3": "^1.4.2",
 		"all": "^0.0.0",
 		"chai": "^4.3.4",
+		"cipher-base": "^1.0.4",
 		"dotenv": "^10.0.0",
 		"embla-carousel-react": "^6.0.1",
 		"ethers": "^5.5.1",
