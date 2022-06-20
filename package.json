@@ -10,6 +10,8 @@
 	"dependencies": {
 		"@alch/alchemy-web3": "^1.4.2",
 		"all": "^0.0.0",
+		"assert": "^2.0.0",
+		"buffer": "^6.0.3",
 		"chai": "^4.3.4",
 		"dotenv": "^10.0.0",
 		"embla-carousel-react": "^6.0.1",
