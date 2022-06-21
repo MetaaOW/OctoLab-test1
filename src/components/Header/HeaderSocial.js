@@ -3,7 +3,7 @@ export default function HeaderSocial() {
 		<nav aria-label="Contact Menu">
 			<ul className="flex items-center px-8 py-1 space-x-4">
 				<li>
-					<a href="https://opensea.io/collection/randomice" target="_blank" rel="noreferrer">
+					<a href="https://opensea.io/collection/octolab" target="_blank" rel="noreferrer">
 						<svg
 							className="w-7 h-7"
 							viewBox="0 0 90 90"
@@ -19,7 +19,7 @@ export default function HeaderSocial() {
 				</li>
 
 				<li>
-					<a href="https://twitter.com/RandomiceNFT" target="_blank" rel="noreferrer">
+					<a href="https://twitter.com/OctoCityNFT" target="_blank" rel="noreferrer">
 						<svg
 							className="w-7 h-7"
 							stroke="currentColor"
@@ -34,7 +34,7 @@ export default function HeaderSocial() {
 				</li>
 
 				<li>
-					<a href="https://discord.gg/Fcgxqusezw" target="_blank" rel="noreferrer">
+					<a href="https://discord.gg/jkUe5rqJnm" target="_blank" rel="noreferrer">
 						<svg
 							className="w-7 h-7"
 							stroke="currentColor"

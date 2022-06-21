@@ -17,7 +17,7 @@ export default function HeroStats({
       {(isPublicSaleActive || isPresaleActive) && (
         <p className="px-2 py-1 my-4 text-4xl font-extrabold text-center text-gray-800 bg-blue-200 rounded-md font-flower">
           Minted:
-          <span className="text-blue-600"> {`${totalSupply}`}</span> / 30
+          <span className="text-blue-600"> {`${totalSupply}`}</span> / 3000
           <br></br>
 
         </p>

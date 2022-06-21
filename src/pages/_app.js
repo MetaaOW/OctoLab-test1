@@ -13,14 +13,14 @@ function MyApp({ Component, pageProps }) {
 				<meta name="description" content="OctoLab, built by community, for everyone. A collection of 3,000 NFT !"/>
 
 				<meta property="og:type" content="website"/>
-				<meta property="og:url" content="https://randomice.io"/>
+				<meta property="og:url" content="https://oceantreasure.co.nz"/>
 				<meta property="og:title" content="OctoLab NFT"/>
 				<meta property="og:description" content="OctoLab, built by community, for everyone. A collection of 3,000 NFT !"/>
 				<meta property="og:image" content="/Banner16x9.png"/>
 
 				<meta property="twitter:card" content="summary_large_image"/>
-				<meta property="twitter:url" content="https://randomice.io/"/>
-				<meta property="twitter:title" content="Randomice NFT"/>
+				<meta property="twitter:url" content="https://twitter.com/OctoCityNFT/"/>
+				<meta property="twitter:title" content="OctoCityNFT"/>
 				<meta property="twitter:description" content="OctoLab, built by community, for everyone. A collection of 3,000 NFT !"/>
 				<meta property="twitter:image" content="/Banner16x9.png"/>
 			

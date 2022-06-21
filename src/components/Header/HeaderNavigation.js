@@ -6,19 +6,19 @@ export default function HeaderNavigation() {
 			<ul className="container flex flex-wrap items-center space-x-8 xl:flex-nowrap px-4 ">
 				<li className="text-gray-200 text-semibold lg:text-4xl text-2xl font-flower">
 					<Link href="#about">
-						<a>About</a>
+						<a></a>
 					</Link>
 				</li>
 
 				<li className="text-gray-200 text-semibold lg:text-4xl text-2xl font-flower">
 					<Link href="#gallery">
-						<a>Gallery</a>
+						<a></a>
 					</Link>
 				</li>
 
 				<li className="text-gray-200 text-semibold lg:text-4xl text-2xl font-flower">
 					<Link href="#faq">
-						<a>FAQ</a>
+						<a></a>
 					</Link>
 				</li>
 			</ul>

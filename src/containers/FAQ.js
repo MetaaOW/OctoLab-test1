@@ -24,7 +24,7 @@ export default function FAQ() {
 									onClick={() => setFaq1(!faq1)}
 									className="font-bold leading-none text-gray-800 uppercase cursor-pointer font-flower lg:text-4xl text-2xl"
 								>
-									Who is behind TestRinkebyOcto?
+									Who is behind OctoLab?
 								</h2>
 							</div>
 							<button
@@ -75,13 +75,12 @@ export default function FAQ() {
 							<ul className="">
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower">
-										<Link href="https://twitter.com/spiridono">
+										<Link href="https://twitter.com/OctoCityNFT">
 											<a className="font-flower text-blue-600 hover:text-cyan-700">
 												octocity.eth
 											</a>
 										</Link>
-										{" "}- founder, dev and artist. Long term crypto enthusiast, self-proclaimed blockchain
-										developer, dad, cat lover, degen.
+										{" "}- founder, dev and co-artist, future father who wants to gain a foothold in this world.
 
 									</p>
 								</li>
@@ -148,13 +147,14 @@ export default function FAQ() {
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-										OctoLab were created as a nice little gift to the awesome community of CryptoBatz and CoolCats, and didn&apos;t promise anything but positive vibes at the start. {""}
+										OctoLab were created as a nice little gift to the awesome community of CryptoBatz and Cool Cats, and didn&apos;t promise anything but positive vibes at the start. {""}
 
 										<p>&nbsp;</p>
-										After a successful launch, it was clear that the community wants the RandoMcie to have a long term future, so we gathered a team of 
-										awesome and creative people to take the project to a different level.
+										For starters, my wife and I have nowhere to live, and we would first take care of our corner. Our plans include constant 
+										support of the project, from the nearest we make a game, without donations and lootboxes, 
+										just a gift to the community. You can always show us a new step or direct us in a new direction, we are completely open to you.
 										  <p>&nbsp;</p>
-										  Stay tuned for the announcements!
+										  Be sure to follow us, and let the developers do something!
 										  									    
 									</p>
 								</li>
@@ -221,16 +221,16 @@ export default function FAQ() {
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-										OctoLab were hand drawn and coded by {""}
-										<Link href="https://twitter.com/spiridono">
+									Octolab were hand-drawn by my wife, and coded by me using a custom engine.
+										  <p>&nbsp;</p>
+
+With the help of my friend {""} <Link href="https://twitter.com/spiridono">
 											<a className="font-flower text-blue-600 hover:text-cyan-700">
-												octocity.eth
+												spiridono.eth
 											</a>
-										</Link>.
+										</Link>. I managed to assemble this wonderful site and add a normal, optimized smart contract
 										  <p>&nbsp;</p>
-										  All the separate parts were ran through a custom Python script that randomly combined them based on each part&apos;s rarity profile.
-										  <p>&nbsp;</p>
-										  Resulting images and metadata were uploaded to a decentralized file system (IPFS) and linked to OctoLab smart contract.  
+He has an amazing community in discord with the good guys we're friends with and successful collections that are already changing the NFT world. 
 									</p>
 								</li>
 							</ul>
@@ -295,14 +295,14 @@ export default function FAQ() {
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-left text-gray-600 font-flower ">
-										🐙 <a className="font-semibold text-blue-600">Maximum supply:</a> 3000.
+										🐙 <a className="font-semibold text-blue-600">Maximum supply:</a> 3,000.
 										<p>&nbsp;</p>
 										🐙 <a className="font-semibold text-blue-600">White list:</a> OctoLab are FREE to mint for owners of CryptoBatz, and CoolCats, max 1 per address.
 										Your qualifying token must be in your wallet in order to claim a free OctoLab.
 										<p>&nbsp;</p>
 										🐙 <a className="font-semibold text-blue-600">Public sale:</a> Publicly available OctoLab cost 0.025 ETH, max 7 per transaction.
 										<p>&nbsp;</p>
-										All prices are excluding gas fee.
+										All prices are excluding low gas fee.
 										<p>&nbsp;</p>
 									</p>
 								</li>
@@ -318,7 +318,7 @@ export default function FAQ() {
 									onClick={() => setFaq5(!faq5)}
 									className="font-bold leading-none text-gray-800 uppercase cursor-pointer font-flower lg:text-4xl text-2xl"
 								>
-									How can I get an TestRinkebyOcto?
+									How can I get an OctoLab?
 								</h2>
 							</div>
 							<button
@@ -445,12 +445,10 @@ export default function FAQ() {
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-										OctoLab were created as a fun collection catering to awesome NFT community of CryptoBatz, CoolCats and are
-										intended for people to enjoy collecting, not as a financial
-										instrument. The creator makes absolutely no promises or
-										guarantees regarding the value of the RandoMice. Hopefully
-										OctoLab go to the moon, but like anything in life, don&apos;t
-										spend money you can&apos;t afford to not have.
+									OctoLab were created as a fun collection catering to awesome NFT community of CryptoBatz, 
+									CoolCats and are intended for people to enjoy collecting, not as a financial instrument. 
+									I cant makes promises or guarantees regarding the value of the OctoLab. Hopefully OctoLab 
+									go to the moon, but like anything in life, please, don't spend money you can't afford to not have.
 									</p>
 								</li>
 							</ul>
@@ -515,9 +513,9 @@ export default function FAQ() {
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-										OctoLab, the contract code, and resulting assets are all
-										Public domain, you are free to do whatever you want with
-										your RandoMice.
+									Ownership and commercial usage rights given to the owner, 
+									so you are free to do anything with them under a non-exclusive license 
+									as long as you own the OctoLab.
 									</p>
 								</li>
 							</ul>

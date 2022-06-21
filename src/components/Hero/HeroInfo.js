@@ -13,7 +13,7 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 			</div>
 			<div>
 				<h1 className="py-8 space-y-4 text-2xl leading-6 text-gray-700 lg:text-4xl lg:leading-7 font-flower">
-					OctoLab are here to bring you joy!
+					
 				</h1>
 			</div>
 			<div className="divide-y divide-gray-200">
@@ -22,7 +22,7 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 						<div className="flex items-start">
 							<span className="flex items-center h-6 sm:h-7">🐙</span>
 							<p className="ml-2 font-flower">
-								A collection of <a className="font-semibold text-blue-600">3000 adorable collectible octo</a>, made with love for NFTs.
+								A collection of <a className="font-semibold text-blue-600">3000 cute collectible octopuses</a>, made with love for NFTs.
 								<p>&nbsp;</p>
 							</p>
 						</div>
@@ -30,18 +30,18 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 						<div className="flex items-start">
 							<span className="flex items-center h-6 sm:h-7">🐙</span>
 							<p className="ml-2 font-flower">
-								Each OctoLab is randomly generated from{" "}
+								Each OctoLab is randomly generated from coolest{" "}
 								<a className="font-semibold text-blue-600">
 								99 rare traits + 38 legendary
 								</a>{" "}
-								  of different rarities and permanently stored on decentralised web (IPFS).
+								  of different rarities and permanently stored on decentralised web.
 								<p>&nbsp;</p>
 							</p>
 						</div>
 						<div className="flex items-start">
 							<span className="flex items-center h-6 sm:h-7">🐙</span>
 							<p className="ml-2 font-flower">
-								Released without any roadmap, promises and marketing, OctoLab <a className="font-semibold text-blue-600">sold out in 2 hours</a> and gathered amazing people around them. <p>&nbsp;</p> Join our fun and friendly community and <a className="font-semibold text-blue-600">stay tuned for the updates on our future plans!</a>
+							From holders to holders, for the community CryptoBatz and Cool Cats. Each OctoLab allows its owner to be part of an exclusive community giving future different perks and experiences to its holders. <p>&nbsp;</p><a className="font-semibold text-blue-600"></a>
 								<p>&nbsp;</p>
 							</p>
 						</div>						
@@ -52,7 +52,7 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 				<div className="flex justify-center" >
 			<div className="flex items-center space-x-10 py-4">
 				<div>
-					<a href="https://opensea.io/collection/randomice" target="_blank" rel="noreferrer">
+					<a href="https://opensea.io/collection/octolab" target="_blank" rel="noreferrer">
 						<svg
 							className="w-10 h-10"
 							viewBox="0 0 90 90"
@@ -68,7 +68,7 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 				</div>
 
 				<div>
-					<a href="https://twitter.com/RandomiceNFT" target="_blank" rel="noreferrer">
+					<a href="https://twitter.com/OctoCityNFT" target="_blank" rel="noreferrer">
 						<svg
 							className="w-10 h-10"
 							stroke="#348AD3"
@@ -83,7 +83,7 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 				</div>
 
 				<div>
-					<a href="https://discord.gg/Fcgxqusezw" target="_blank" rel="noreferrer">
+					<a href="https://discord.gg/jkUe5rqJnm" target="_blank" rel="noreferrer">
 						<svg
 							className="w-10 h-10"
 							stroke="#348AD3"

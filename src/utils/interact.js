@@ -165,7 +165,7 @@ export const mintNFT = async (mintAmount) => {
             </a>
             <a
               className="px-2 text-blue-600"
-              href="https://opensea.io/collection/randomice"
+              href="https://opensea.io/collection/octolab"
             >
               OpenSea.io!
             </a>
@@ -222,7 +222,7 @@ export const claimNFT = async (address) => {
             </a>
             <a
               className="px-2 text-blue-600"
-              href="https://opensea.io/collection/randomice"
+              href="https://opensea.io/collection/octolab"
             >
               OpenSea.io!
             </a>
