@@ -1,5 +1,5 @@
 module.exports = {
     resolve: {
-        fallback: { process: require.resolve("string_decoder/") },
+        fallback: { process: require.resolve("cipher-base/") },
     },
 };
