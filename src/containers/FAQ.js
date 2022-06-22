@@ -96,7 +96,7 @@ export default function FAQ() {
 									onClick={() => setFaq2(!faq2)}
 									className="font-bold leading-none text-gray-800 uppercase cursor-pointer font-flower lg:text-4xl text-2xl"
 								>
-									ROADMAP?
+									A NEW TYPE OF ROADMAP?
 								</h2>
 							</div>
 							<button
@@ -147,10 +147,14 @@ export default function FAQ() {
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-										OctoLab were created as a nice little gift to the awesome community of CryptoBatz and Cool Cats, and didn&apos;t promise anything but positive vibes at the start. {""}
+									GoblinTown brought a free mint to the community, we want to bring honesty to the community. {""}
+									<p>&nbsp;</p>
+										OctoLab were created as a nice little gift to the awesome community of 
+										CryptoBatz and Cool Cats, and didn&apos;t promise anything but positive 
+										vibes at the start. {""}
 
 										<p>&nbsp;</p>
-										For starters, my wife and I have nowhere to live, and we would first take care of our corner. Our plans include constant 
+										For starters, my wife and I have nowhere to live, and we would first take care of our corner for our baby. Our plans include constant 
 										support of the project, from the nearest we make a game, without donations and lootboxes, 
 										just a gift to the community. You can always show us a new step or direct us in a new direction, we are completely open to you.
 										  <p>&nbsp;</p>
