@@ -59,15 +59,15 @@ export default function HeroMint({
   };
 
 
-  // Randomice minting
-  const mintTestRinkebyOcto = async () => {
+  // OctoLab minting
+  const mintOctoLab = async () => {
     const { status } = await mintNFT(count);
     setStatus(status);
     updateTotalSupply();
     
   };
 
-  const claimTestRinkebyOcto = async () => {
+  const claimOctoLab = async () => {
     const { status } = await claimNFT(currentAccount);
     setStatus(status);
     updateTotalSupply();
@@ -91,7 +91,7 @@ export default function HeroMint({
               decrementCount={decrementCount}
             />
             <HeroPrice nftPrice={(nftPrice * count).toFixed(3)} />
-            <HeroMintButton mintTestRinkebyOcto={mintTestRinkebyOcto} />
+            <HeroMintButton mintOctoLab={mintOctoLab} />
 
             {isWhitelisted ? (
             !freeClaimedByAddress ? (
@@ -99,7 +99,7 @@ export default function HeroMint({
                 <h3 className="mt-2 font-semibold text-2xl text-center text-blue-600 font-flower">
                   YOU ARE WHITELISTED!
                 </h3>
-                <HeroClaimButton claimTestRinkebyOcto={claimTestRinkebyOcto} />
+                <HeroClaimButton claimOctoLab={claimOctoLab} />
               </>
             ) : (
               <h3 className="mt-2 font-semibold text-2xl text-center text-blue-600 font-flower">

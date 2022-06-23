@@ -1117,32 +1117,35 @@ abstract contract Ownable is Context {
 }
 
 
-/*built by shhhhh, for me*/
 pragma solidity ^0.8.10;
 
-contract TestRinkebyOcto is ERC721, Ownable, ReentrancyGuard {
+contract OctoLab is ERC721, Ownable, ReentrancyGuard {
 	using Strings for uint256;
 
 	string public baseURI;
 	uint256 public cost = 0.025 ether;
     uint256 public minted;
-	uint256 public maxSupply = 30;
+	uint256 public maxSupply = 3000;
 	uint256 public maxMint = 7;
 	bool public status = false;
 	
-    address octoAddr = 0x75665c4922e8a61193412FD471A4c784AB4042B6;
+    address batzAddr = 0xc8adFb4D437357D0A656D4e62fd9a6D22e401aa0;   //CryptoBatz
+    address catsAddr = 0x1A92f7381B9F03921564a437210bB9396471050C;   //CoolCats
 
     mapping(address => bool) public mintlist;
 
-	constructor() ERC721("TestRinkebyOcto", "TRO") {}
+	constructor() ERC721("RandoMice", "RMICE") {}
 
 
     //checks if address owns at least one token from either of the qualifying collections
     function isHolder(address _wallet) public view returns (bool) {
-        ERC721 octoToken = ERC721(octoAddr);
-        uint256 _octoBalance = octoToken.balanceOf(_wallet);
+        ERC721 batzToken = ERC721(batzAddr);
+        uint256 _batzBalance = batzToken.balanceOf(_wallet);
     
-        return (_octoBalance > 0);
+        ERC721 catsToken = ERC721(catsAddr);
+        uint256 _catsBalance = catsToken.balanceOf(_wallet);
+
+        return (_batzBalance + _catsBalance > 0);
   }
 
 
@@ -1174,7 +1177,7 @@ contract TestRinkebyOcto is ERC721, Ownable, ReentrancyGuard {
      }
 
 
-    //giveaways are nice
+    //giveaways
 	function gift(uint[] calldata quantity, address[] calldata recipient) external onlyOwner{
 		require(quantity.length == recipient.length, "Provide quantities and recipients" );
 		uint totalQuantity = 0;
@@ -1201,8 +1204,12 @@ contract TestRinkebyOcto is ERC721, Ownable, ReentrancyGuard {
 
 
     //setters
-    function setOctoAddress(address _octoAddr) external onlyOwner {
-        octoAddr = _octoAddr;
+    function setBatzAddress(address _batzAddr) external onlyOwner {
+        batzAddr = _batzAddr;
+    }
+
+    function setCatsAddress(address _catsAddr) external onlyOwner {
+        catsAddr = _catsAddr;
     }
 
 	function setCost(uint256 _newCost) public onlyOwner {

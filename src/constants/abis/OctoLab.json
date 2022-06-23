@@ -456,12 +456,12 @@
 	{
 		"inputs": [
 			{
-				"internalType": "address",
-				"name": "_babyMiceAddr",
-				"type": "address"
+				"internalType": "string",
+				"name": "_newBaseURI",
+				"type": "string"
 			}
 		],
-		"name": "setBabyMiceAddress",
+		"name": "setBaseURI",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -469,12 +469,25 @@
 	{
 		"inputs": [
 			{
-				"internalType": "string",
-				"name": "_newBaseURI",
-				"type": "string"
+				"internalType": "address",
+				"name": "_batzAddr",
+				"type": "address"
 			}
 		],
-		"name": "setBaseURI",
+		"name": "setBatzAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_catsAddr",
+				"type": "address"
+			}
+		],
+		"name": "setCatsAddress",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -495,38 +508,12 @@
 	{
 		"inputs": [
 			{
-				"internalType": "address",
-				"name": "_doodlesAddr",
-				"type": "address"
-			}
-		],
-		"name": "setDoodlesAddress",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "uint256",
 				"name": "_newMaxMintAmount",
 				"type": "uint256"
 			}
 		],
 		"name": "setMaxMintAmount",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "_miceAddr",
-				"type": "address"
-			}
-		],
-		"name": "setMiceAddress",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"

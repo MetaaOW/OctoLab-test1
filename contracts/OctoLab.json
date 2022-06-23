@@ -469,6 +469,32 @@
 	{
 		"inputs": [
 			{
+				"internalType": "address",
+				"name": "_batzAddr",
+				"type": "address"
+			}
+		],
+		"name": "setBatzAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_catsAddr",
+				"type": "address"
+			}
+		],
+		"name": "setCatsAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "uint256",
 				"name": "_newCost",
 				"type": "uint256"
@@ -488,19 +514,6 @@
 			}
 		],
 		"name": "setMaxMintAmount",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "_octoAddr",
-				"type": "address"
-			}
-		],
-		"name": "setOctoAddress",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"

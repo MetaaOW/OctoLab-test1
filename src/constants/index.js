@@ -1,9 +1,9 @@
 import TestRinkebyOcto_ABI from "./abis/TestRinkebyOcto.json";
 
 export const abis = {
-  TestRinkebyOcto_ABI,
+  OctoLab_ABI,
 };
 
 export const contracts = {
-  TestRinkebyOcto_ADDRESS: "0xF29c532ee634b45aE915802b638eB3BbBaaE2458",
+  OctoLab_ADDRESS: "0x8d2adce213fe21d619f3f1a4e98f51b2f22ff82f",
 };

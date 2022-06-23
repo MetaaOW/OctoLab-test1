@@ -97,7 +97,7 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 					</a>
 				</div>
 				<div>
-					<a href="https://etherscan.io/address/0x091561EB5B0fc1dA32A0F8842512A994B0Fdc37B#code" target="_blank" rel="noreferrer">
+					<a href="https://etherscan.io/address/0x8d2adce213fe21d619f3f1a4e98f51b2f22ff82f#code" target="_blank" rel="noreferrer">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 293.775 293.667"

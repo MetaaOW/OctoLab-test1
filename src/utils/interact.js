@@ -3,8 +3,8 @@ import { abis, contracts } from "../constants";
 
 const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_API_URL_MAINNET);
 
-const TestRinkebyOcto_ADDRESS = contracts.TestRinkebyOcto_ADDRESS;
-const contract = new web3.eth.Contract(abis.TestRinkebyOcto_ABI, TestRinkebyOcto_ADDRESS);
+const OctoLab_ADDRESS = contracts.OctoLab_ADDRESS;
+const contract = new web3.eth.Contract(abis.OctoLab_ABI, OctoLab_ADDRESS);
 
 export const connectWallet = async () => {
   if (window.ethereum) {
@@ -139,7 +139,7 @@ export const mintNFT = async (mintAmount) => {
 
   //set up your Ethereum transaction
   const transactionParameters = {
-    to: TestRinkebyOcto_ADDRESS, // Required except during contract publications.
+    to: OctoLab_ADDRESS, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
     value: parseInt(web3.utils.toWei("0.025", "ether") * mintAmount).toString(
       16,
@@ -160,7 +160,7 @@ export const mintNFT = async (mintAmount) => {
           <p>
             {" "}
             <a>
-              Your TestRinkebyOcto is minting! <p>&nbsp;</p> Once transaction is
+              Your OctoLab is minting! <p>&nbsp;</p> Once transaction is
               approved, check it out on
             </a>
             <a
@@ -199,7 +199,7 @@ export const claimNFT = async (address) => {
 
   //set up your Ethereum transaction
   const transactionParameters = {
-    to: TestRinkebyOcto_ADDRESS, // Required except during contract publications.
+    to: OctoLab_ADDRESS, // Required except during contract publications.
     from: window.ethereum.selectedAddress, // must match user's active address.
     gasLimit: "0",
     data: contract.methods.claim(address).encodeABI(), //make call to NFT smart contract
@@ -217,7 +217,7 @@ export const claimNFT = async (address) => {
           <p>
             {" "}
             <a>
-              Your TestRinkebyOcto is minting! <p>&nbsp;</p> Once transaction is
+              Your OctoLab is minting! <p>&nbsp;</p> Once transaction is
               approved, check it out on
             </a>
             <a
