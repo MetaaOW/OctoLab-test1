@@ -1,4 +1,4 @@
-import TestRinkebyOcto_ABI from "./abis/TestRinkebyOcto.json";
+import OctoLab_ABI from "./abis/OctoLab.json";
 
 export const abis = {
   OctoLab_ABI,
