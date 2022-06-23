@@ -48,7 +48,7 @@ export default function HeaderSocial() {
 					</a>
 				</li>
 				<li>
-					<a href="https://etherscan.io/address/0x8d2adce213fe21d619f3f1a4e98f51b2f22ff82f#code" target="_blank" rel="noreferrer">
+					<a href="https://etherscan.io/address/0xdC1E31A37734C7400Ca6C31c6aCc71A21e180d07#code" target="_blank" rel="noreferrer">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 293.775 293.667"

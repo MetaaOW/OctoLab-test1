@@ -5,5 +5,5 @@ export const abis = {
 };
 
 export const contracts = {
-  OctoLab_ADDRESS: "0x8d2adce213fe21d619f3f1a4e98f51b2f22ff82f",
+  OctoLab_ADDRESS: "0xdC1E31A37734C7400Ca6C31c6aCc71A21e180d07",
 };

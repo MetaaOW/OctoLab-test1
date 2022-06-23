@@ -1134,7 +1134,7 @@ contract OctoLab is ERC721, Ownable, ReentrancyGuard {
 
     mapping(address => bool) public mintlist;
 
-	constructor() ERC721("RandoMice", "RMICE") {}
+	constructor() ERC721("OctoLab", "OL") {}
 
 
     //checks if address owns at least one token from either of the qualifying collections
