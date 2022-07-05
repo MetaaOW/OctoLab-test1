@@ -41,7 +41,7 @@ export default function HeroInfo({ nftPrice, maxMintAmount }) {
 						<div className="flex items-start">
 							<span className="flex items-center h-6 sm:h-7">🐙</span>
 							<p className="ml-2 font-flower">
-							From holders to holders, for the community CryptoBatz and Cool Cats. Each OctoLab allows its owner to be part of an exclusive community giving future different perks and experiences to its holders. <p>&nbsp;</p><a className="font-semibold text-blue-600"></a>
+							From holders to holders, for the community RandoMice and PurrEvil. Each OctoLab allows its owner to be part of an exclusive community giving future different perks and experiences to its holders. <p>&nbsp;</p><a className="font-semibold text-blue-600"></a>
 								<p>&nbsp;</p>
 							</p>
 						</div>						

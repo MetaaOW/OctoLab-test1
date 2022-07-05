@@ -19,7 +19,7 @@ export default function Hero() {
   // Info
   const [isPublicSaleActive, setIsPublicSaleActive] = useState(true);
   const [maxMintAmount, setMaxMintAmount] = useState(0);
-  const [nftPrice, setNftPrice] = useState("0.025");
+  const [nftPrice, setNftPrice] = useState("0.005");
   const [totalSupply, setTotalSupply] = useState(0);
   const [currentAccount, setCurrentAccount] = useState("");
 

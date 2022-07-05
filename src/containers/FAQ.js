@@ -80,7 +80,7 @@ export default function FAQ() {
 												octocity.eth
 											</a>
 										</Link>
-										{" "}- founder, dev and co-artist, future father who wants to gain a foothold in this world.
+										{" "}- founder and co-artist, future father who wants to gain a foothold in this world.
 
 									</p>
 								</li>
@@ -150,7 +150,7 @@ export default function FAQ() {
 									GoblinTown brought a free mint to the community, we want to bring honesty to the community. {""}
 									<p>&nbsp;</p>
 										OctoLab were created as a nice little gift to the awesome community of 
-										CryptoBatz and Cool Cats, and didn&apos;t promise anything but positive 
+										RandoMice and PurrEvil, and didn&apos;t promise anything but positive 
 										vibes at the start. {""}
 
 										<p>&nbsp;</p>
@@ -301,10 +301,10 @@ He has an amazing community in discord with the good guys we're friends with and
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-left text-gray-600 font-flower ">
 										🐙 <a className="font-semibold text-blue-600">Maximum supply:</a> 3,000.
 										<p>&nbsp;</p>
-										🐙 <a className="font-semibold text-blue-600">White list:</a> OctoLab are FREE to mint for owners of CryptoBatz, and CoolCats, max 1 per address.
+										🐙 <a className="font-semibold text-blue-600">White list:</a> OctoLab are FREE to claim for owners of RandoMice and PurrEvil, max 1 per address.
 										Your qualifying token must be in your wallet in order to claim a free OctoLab.
 										<p>&nbsp;</p>
-										🐙 <a className="font-semibold text-blue-600">Public sale:</a> Publicly available OctoLab cost 0.025 ETH, max 7 per transaction.
+										🐙 <a className="font-semibold text-blue-600">Public sale:</a> Publicly available OctoLab cost 0.005 ETH, max 7 per transaction.
 										<p>&nbsp;</p>
 										All prices are excluding low gas fee.
 										<p>&nbsp;</p>
@@ -449,8 +449,8 @@ He has an amazing community in discord with the good guys we're friends with and
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-									OctoLab were created as a fun collection catering to awesome NFT community of CryptoBatz, 
-									CoolCats and are intended for people to enjoy collecting, not as a financial instrument. 
+									OctoLab were created as a fun collection catering to awesome NFT community of RandoMice, 
+									PurrEvil and are intended for people to enjoy collecting, not as a financial instrument. 
 									I cant makes promises or guarantees regarding the value of the OctoLab. Hopefully OctoLab 
 									go to the moon, but like anything in life, please, don't spend money you can't afford to not have.
 									</p>
