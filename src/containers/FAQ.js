@@ -150,7 +150,7 @@ export default function FAQ() {
 									GoblinTown brought a free mint to the community, we want to bring honesty to the community. {""}
 									<p>&nbsp;</p>
 										OctoLab were created as a nice little gift to the awesome community of 
-										RandoMice and PurrEvil, and didn&apos;t promise anything but positive 
+										RandoMice and Edgehogs, and didn&apos;t promise anything but positive 
 										vibes at the start. {""}
 
 										<p>&nbsp;</p>
