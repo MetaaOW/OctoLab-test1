@@ -156,7 +156,7 @@ export default function FAQ() {
 										<p>&nbsp;</p>
 										For starters, my wife and I have nowhere to live, and we would first take care of our corner for our baby. Our plans include constant 
 										support of the project, from the nearest we make a game, without donations and lootboxes, 
-										just a gift to the community. You can always show us a new step or direct us in a new direction, we are completely open to you.
+										just a gift to the community, but allow for the fact that I'm alone, so it may take more time. You can always show us a new step or direct us in a new direction, we are completely open to you.
 										  <p>&nbsp;</p>
 										  Be sure to follow us, and let the developers do something!
 										  									    
@@ -225,7 +225,11 @@ export default function FAQ() {
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-									Octolab were hand-drawn by my wife, and coded by me using a custom engine.
+									Octolab were hand-drawn by my wife, and coded by me {""} <Link href="https://twitter.com/OctoCityNFT">
+											<a className="font-flower text-blue-600 hover:text-cyan-700">
+												octocity.eth
+											</a>
+										</Link>, using a custom engine.
 										  <p>&nbsp;</p>
 
 With the help of my friend {""} <Link href="https://twitter.com/spiridono">
@@ -301,7 +305,7 @@ He has an amazing community in discord with the good guys we're friends with and
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-left text-gray-600 font-flower ">
 										🐙 <a className="font-semibold text-blue-600">Maximum supply:</a> 3,000.
 										<p>&nbsp;</p>
-										🐙 <a className="font-semibold text-blue-600">White list:</a> OctoLab are FREE to claim for owners of RandoMice and PurrEvil, max 1 per address.
+										🐙 <a className="font-semibold text-blue-600">White list:</a> OctoLab are FREE to claim for owners of RandoMice and Edgehogs, max 1 per address.
 										Your qualifying token must be in your wallet in order to claim a free OctoLab.
 										<p>&nbsp;</p>
 										🐙 <a className="font-semibold text-blue-600">Public sale:</a> Publicly available OctoLab cost 0.005 ETH, max 7 per transaction.
@@ -450,7 +454,7 @@ He has an amazing community in discord with the good guys we're friends with and
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
 									OctoLab were created as a fun collection catering to awesome NFT community of RandoMice, 
-									PurrEvil and are intended for people to enjoy collecting, not as a financial instrument. 
+									Edgehogs and are intended for people to enjoy collecting, not as a financial instrument. 
 									I cant makes promises or guarantees regarding the value of the OctoLab. Hopefully OctoLab 
 									go to the moon, but like anything in life, please, don't spend money you can't afford to not have.
 									</p>
