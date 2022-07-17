@@ -149,8 +149,7 @@ export default function FAQ() {
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
 									GoblinTown brought a free mint to the community, we want to bring honesty to the community. {""}
 									<p>&nbsp;</p>
-										OctoLab were created as a nice little gift to the awesome community of 
-										RandoMice and Edgehogs, and didn&apos;t promise anything but positive 
+										OctoLab were created as a nice little gift to the awesome community, and didn&apos;t promise anything but positive 
 										vibes at the start. {""}
 
 										<p>&nbsp;</p>
@@ -303,10 +302,7 @@ He has an amazing community in discord with the good guys we're friends with and
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-left text-gray-600 font-flower ">
-										🐙 <a className="font-semibold text-blue-600">Maximum supply:</a> 3,000.
-										<p>&nbsp;</p>
-										🐙 <a className="font-semibold text-blue-600">White list:</a> OctoLab are FREE to claim for owners of RandoMice and Edgehogs, max 1 per address.
-										Your qualifying token must be in your wallet in order to claim a free OctoLab.
+										🐙 <a className="font-semibold text-blue-600">Maximum supply:</a> 3,000								
 										<p>&nbsp;</p>
 										🐙 <a className="font-semibold text-blue-600">Public sale:</a> Publicly available OctoLab cost 0.005 ETH, max 7 per transaction.
 										<p>&nbsp;</p>
@@ -453,8 +449,7 @@ He has an amazing community in discord with the good guys we're friends with and
 							<ul>
 								<li>
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-justify text-gray-600 font-flower ">
-									OctoLab were created as a fun collection catering to awesome NFT community of RandoMice, 
-									Edgehogs and are intended for people to enjoy collecting, not as a financial instrument. 
+									OctoLab were created as a fun collection catering to awesome NFT community and are intended for people to enjoy collecting, not as a financial instrument. 
 									I cant makes promises or guarantees regarding the value of the OctoLab. Hopefully OctoLab 
 									go to the moon, but like anything in life, please, don't spend money you can't afford to not have.
 									</p>
