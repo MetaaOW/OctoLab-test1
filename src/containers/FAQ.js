@@ -304,7 +304,7 @@ He has an amazing community in discord with the good guys we're friends with and
 									<p className="mt-4 lg:text-2xl text-xl leading-normal text-left text-gray-600 font-flower ">
 										🐙 <a className="font-semibold text-blue-600">Maximum supply:</a> 3,000								
 										<p>&nbsp;</p>
-										🐙 <a className="font-semibold text-blue-600">Public sale:</a> Publicly available OctoLab cost 0.005 ETH, max 7 per transaction.
+										🐙 <a className="font-semibold text-blue-600">Public sale:</a> Publicly available OctoLab cost 0 ETH, max 7 per transaction.
 										<p>&nbsp;</p>
 										All prices are excluding low gas fee.
 										<p>&nbsp;</p>
